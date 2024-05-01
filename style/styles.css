@@ -1,0 +1,41 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* header */
+header{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 78px 10px 78px;
+}
+
+header ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+ul li{
+    font-size: 18px;
+}
+
+header p{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* main */
+main{
+    background-color: #1F2937;
+    display: flex;
+    padding: 4px 78px 10px 78px;
+}
+
+main .left-side{
+    height: auto;
+    width: 50%;
+}
