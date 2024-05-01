@@ -29,8 +29,8 @@ header p{
     font-weight: bold;
 }
 
-/* main */
-main{
+/* section */
+section{
     background-color: #1F2937;
     display: flex;
     padding: 4px 78px 10px 78px;
@@ -38,13 +38,10 @@ main{
     justify-content: space-between;
     padding-top: 50px;
     padding-bottom: 80px;
+
 }
 
-main .left-side{
-    height: auto;
-}
-
-main .left-side h1{
+.left-side h1{
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
@@ -53,7 +50,11 @@ main .left-side h1{
 .left-side p{
     font-size: 18px;
     color: #E5E7EB;
-}  
+}
+
+.left-side h1{
+    margin: 0;
+}
 
 .left-side button{
     background-color: #3882F6;
