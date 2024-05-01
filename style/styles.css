@@ -33,9 +33,42 @@ main{
     background-color: #1F2937;
     display: flex;
     padding: 4px 78px 10px 78px;
+    gap: 50px;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 80px;
 }
 
 main .left-side{
     height: auto;
-    width: 50%;
 }
+
+main .left-side h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.left-side p{
+    font-size: 18px;
+    color: #E5E7EB;
+}  
+
+.left-side button{
+    background-color: #3882F6;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    border-style: solid;
+    border: 0cm;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.right-side img{
+    width: 400px;
+    height: 210px;
+    border-radius: 25px;
+}
+
+
